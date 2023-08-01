@@ -1,0 +1,4 @@
+imageBase_url: "https://api.themoviedb.org/3/configuration?api_key=ea1a4398b9141469d52fad9568c0a369";
+
+
+api_key: 'ea1a4398b9141469d52fad9568c0a369';
