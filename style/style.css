@@ -490,10 +490,15 @@ body {
 }
 
 .banner .genre {
+  color: red;
+  font-size: 21px;
   margin-block: 12px;
 }
 
 .banner-text {
+  color: white;
+  font-size: var(--fs-title);
+  font-weight: 600;
   -webkit-line-clamp: 2;
   margin-block-end: 24px;
 }
