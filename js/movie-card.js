@@ -1,22 +1,14 @@
-'use strict';
+"use strict";
 
 import { imageBaseURL } from "./api.js";
 
-
-
 export function createMovieCard(movie) {
-    const {
-        poster_path,
-        title,
-        vote_average,
-        release_date,
-        id
-    } = movie;
+  const { poster_path, title, vote_average, release_date, id } = movie;
 
-    const card = document.createElement("div");
-    card.classList.add("movie-card");
+  const card = document.createElement("div");
+  card.classList.add("movie-card");
 
-    card.innerHTML = `
+  card.innerHTML = `
 <figure class="poster-box card-banner">
     <img
       src="${imageBaseURL}w342${poster_path}"
@@ -50,5 +42,5 @@ export function createMovieCard(movie) {
   ></a>
     `;
 
-    return card;
+  return card;
 }
